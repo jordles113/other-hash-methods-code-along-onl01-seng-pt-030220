@@ -9,7 +9,7 @@ require 'pry'
 # }
 
 
-  def get_the_values(groceries)
+  def get_the_min(groceries)
  groceries = {
   dairy: ["milk", "yogurt", "cheese"],
   vegetable: ["carrots", "broccoli", "cucumbers"],
@@ -18,6 +18,6 @@ require 'pry'
 }
 
 end
-def get_the_values(groceries)
+def get_the_min(groceries)
   groceries.values.flatten.min
 end
